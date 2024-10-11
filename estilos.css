@@ -1,0 +1,286 @@
+/*ENCABEZAD0*/
+
+*{
+    --color1--: #00754a;
+    margin: 0;
+    padding: 0;
+    font-family: "SoDo Sans SemiBold",Arial, Helvetica Neue, sans-serif;
+    background-color:#F7F9F9 ;   
+     ---color2: #00653e;
+    ---color3:#2c635b;
+    ---color4:#ffffff;
+    --color5:rgb(136, 131, 131);
+    --color6:#c8dbc1;
+    --color7:rgb(42, 42, 61);
+}
+
+.logo img{
+    width:70px;
+    margin-right: 20px;
+    border-radius: 70%;
+    margin-top: 10px;
+
+}
+
+.izquierda div,.menu{
+    text-transform: uppercase;
+    font-weight: 200;
+
+    
+}
+
+
+#encabezado{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 5px 0px rgba(82, 116, 92, 0.75);
+    margin-bottom: 40px;
+
+
+}
+
+.izquierda,.derecha{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+.izquierda>*,.derecha>*{/*relaciona directamente*/
+margin: 10px;
+}
+.sesion,.registra{
+    border: 2px solid black;
+    font-weight: 500;
+    padding:5px 20px;
+    border-radius: 20px;
+     box-shadow: 3px 4px 5px rgb(201, 198, 198);
+}
+.registra{
+    background-color: black;
+    color:white;
+}
+.derecha div{
+    font-weight: 400;
+}
+
+/*FIN DE ENCABEZADO*/
+
+#texto1{
+    padding: 10px;
+      width: 20%;
+      margin: 20px;
+      border: 3px dotted var(--color7);
+
+        
+  }
+  
+     #menu_3{
+      
+      padding: 10px;
+      width: 93%;
+      margin: 20px;
+      height: 20%;
+  
+      
+  
+      }
+      #menu_3 ul li{
+          font-size: 30px;
+          text-decoration: underline;
+          text-shadow: 4px 0px 0px rgba(215, 157, 200, 0.33);
+          color: black;
+          font-family: "Raleway", sans-serif;
+          font-weight: 400;
+  
+  
+      }
+      hr{
+          margin-top: 30px;
+          color:var(--color5);
+          
+      }
+  
+  
+      #contenido{
+          margin: 10px;
+      }
+  
+  #texto2{
+      padding:30px;
+      width: 60%;
+      margin: 20px;
+      border: 3px dotted var(--color7);
+  
+  
+      }
+    .texto{
+      display: flex;
+      justify-content:center;
+      align-content: center;
+      width: 100%;
+  
+    }  
+   
+    
+    .imagen{
+      padding:0;
+      margin-bottom: 3.2rem;
+      display: flex;
+      position: relative;
+      text-align: left;
+      flex: 50%;
+      align-items: center;
+      gap: 15px;
+      
+    }
+  .imagen img{
+      height: 110px;
+          width: 110px;
+         /* min-width: 110px;*/
+          border-radius: 70%;
+          margin-top: 10%;
+  
+          }
+          .productos{
+              margin: 20px;
+  
+          }
+           
+  .sub_muestra{
+      
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+  }
+  h4{
+      font-size: 20px;
+      font-weight: lighter;
+      color:var(--color5);
+  
+      }
+
+      #menu{
+        margin: 20px;
+      }
+
+ .prod{
+        font-size:30px;
+        font-family: "Pacifico", cursive;
+        margin-left: 60px;
+        font-weight:lighter;
+      }
+
+
+  ul {
+      font-weight: 200;
+      font-size:18px;
+      color:rgb(173, 167, 167);
+      list-style:none; 
+      margin: 10px;
+      margin-bottom: 40px;
+      
+    
+  }
+  
+  h1{
+      font-size: 30px;
+      font-weight: lighter 600;
+      padding: 10px;
+      font-family: "Josefin Sans", sans-serif;
+
+
+
+  }
+  h3{
+      font-size: 40px;
+      font-weight: 200;
+      color:var(---color3);
+      text-shadow: 3px 4px 4px var(--color6);
+  }
+  h2{
+      font-size: 18px;
+      font-weight: 100;
+      margin: 5px;
+      text-transform: uppercase;
+      color:var(---color3);
+      text-shadow: 3px 4px 4px var(--color6);
+  }
+
+
+
+
+  .menu_secundario{
+    display: flex;
+   
+    padding: 9px;
+    margin: 30px;
+    text-align: center;
+    
+
+  }
+  .menu_secundario div{
+    margin-right: 4%;
+    margin-left: 2%;
+    font-size: 20px;
+    border:8px;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    border:10px;
+    text-shadow: 3px 4px 5px var(--color6);
+
+  }
+  .pie{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 12px 17px 5px -10px rgba(97, 97, 97, 0.75);
+
+  }
+  .iconos{
+    margin: 30px;
+   
+  }
+  .pie_texto div{
+    margin-top: 20px;
+  }
+  .pie_imag{
+    margin: 10px;
+  }
+  .pie_imag img{
+    border-radius: 50%;
+    margin: 10px;
+
+     
+
+    }
+   
+  .iconos a:hover{
+    color:var(---color2);
+    height: auto;
+
+
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
